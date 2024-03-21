@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
-public class Day1 {
+public class Rest_Assured {
 	@Test(enabled = true)
 	public void setup() {
 		Response rest = RestAssured.get("https://reqres.in/api/users");
